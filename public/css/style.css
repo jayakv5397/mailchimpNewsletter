@@ -1,0 +1,63 @@
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #8a008a; */
+    background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+    }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container>*{
+    flex-basis: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form>*{
+    
+    margin: 10px;
+}
+#img{
+    height: 50px;
+    width: 50px;
+}
+header{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+label{
+    font-size: 16px;
+    font-weight: 500;
+}
+#email{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#password{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#button{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.containerSuccess{
+    text-align:center;
+    color: red;
+}
+#btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+}
